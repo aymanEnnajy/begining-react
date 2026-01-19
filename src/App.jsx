@@ -12,6 +12,8 @@ import IntroDivider from './component/Cards2.jsx'
 import HeroSection from "./component/Heros.jsx";
 import StatsSection from "./component/Props.jsx";
 import InfoSection from "./component/Test.jsx";
+import Stats from './component/Stats.jsx'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -46,6 +48,7 @@ function App() {
       />
 
     
+  <Stats/>
 
     <div style={{height:'100px'}}></div>
     <Footer/>
